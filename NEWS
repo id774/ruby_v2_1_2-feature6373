@@ -84,6 +84,7 @@ with all sufficient information, see the ChangeLog file.
 * Kernel
   * New methods:
     * Kernel#singleton_method
+    * Kernel#itself
 
 * Module
   * New methods:

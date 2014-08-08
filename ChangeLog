@@ -1,3 +1,9 @@
+Sat Aug  2 10:26:57 2014  Nobuyoshi Nakada  <nobu@ruby-lang.org>
+
+	* object.c (rb_obj_itself): new method Object#itsef.  based on the
+	  patch by Rafael Franca in [ruby-core:64156].
+	  [EXPERIMENTAL] this method may be renamed due to compatibilities.
+	  [ruby-core:44704] [Feature #6373]
 Thu May  8 01:13:10 2014  NARUSE, Yui  <naruse@ruby-lang.org>
 
 	* configure.in: correct pthread_setname_np's prototype on NetBSD.
